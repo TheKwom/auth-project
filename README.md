@@ -36,16 +36,19 @@ To get started with the "Secrets" project, follow these steps:
 
    ```bash
    git clone https://github.com/TheKwom/auth-project.git
+   ```
 
 2. **Navigate to the project directory:**
 
    ```bash
    cd auth-project
+   ```
    
 3. **Install dependencies:**
 
    ```bash
    npm i
+   ```
    
 4.  **Set up environment variables:**
 
@@ -65,6 +68,7 @@ To get started with the "Secrets" project, follow these steps:
 
    ```bash
    nodemon index.js
+   ```
 The application should now be running on http://localhost:3000
 
 ## Usage
