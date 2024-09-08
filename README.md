@@ -36,3 +36,47 @@ To get started with the "Secrets" project, follow these steps:
 
    ```bash
    git clone https://github.com/TheKwom/auth-project.git
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd auth-project
+   
+3. **Install dependencies:**
+
+   ```bash
+   npm i
+   
+4.  **Set up environment variables:**
+
+   ```bash
+   GOOGLE_CLIENT_ID="your_google_client_id"
+   GOOGLE_CLIENT_SECRET="your_google_client_secret"
+   SESSION_SECRET="session_secret"
+   PG_USER="postgres"
+   PG_HOST="localhost"
+   PG_DATABASE="secrets"
+   PG_PASSWORD="password"
+   PG_PORT="5432"
+   ```
+   Create a .env file in the root of the project and add the following variables:
+
+6. **Run the application:**
+
+   ```bash
+   nodemon index.js
+The application should now be running on http://localhost:3000
+
+## Usage
+
+1. **Register a new account:**
+Navigate to http://localhost:3000/register and fill out the registration form.
+
+2. **Log in:**
+Go to http://localhost:3000/login to log in with your credentials.
+
+3. **Store a secret:**
+After logging in, navigate to http://localhost:3000/secrets to add and view your secrets.
+
+4. **Log out:**
+Click the log-out button available in the user interface.
