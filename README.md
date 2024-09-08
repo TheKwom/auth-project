@@ -54,13 +54,13 @@ To get started with the "Secrets" project, follow these steps:
 
    ```bash
    GOOGLE_CLIENT_ID="your_google_client_id"
-   GOOGLE_CLIENT_SECRET="your_google_client_secret"
-   SESSION_SECRET="session_secret"
-   PG_USER="postgres"
-   PG_HOST="localhost"
-   PG_DATABASE="secrets"
-   PG_PASSWORD="password"
-   PG_PORT="5432"
+GOOGLE_CLIENT_SECRET="your_google_client_secret"
+SESSION_SECRET="session_secret"
+PG_USER="postgres"
+PG_HOST="localhost"
+PG_DATABASE="secrets"
+PG_PASSWORD="password"
+PG_PORT="5432"
    ```
    Create a .env file in the root of the project and add the following variables:
 
